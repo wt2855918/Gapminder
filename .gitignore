@@ -1,0 +1,75 @@
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# R specific
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Shell script temporary files
+*.sh~
+*.bak
+*.tmp
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# Python packaging files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Logs and database
+*.log
+*.sqlite
+*.db
+
+# Environment and config files
+.env
+
+# Data and results
+data/raw/*
+!data/raw/.gitkeep
+results/figures/*
+results/tables/*
+results/logs/*
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+!results/logs/.gitkeep
+
+# Docker
+*.env
+.dockerignore
+
+# Pixi 
+.pixi
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+
+# IPython NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude compiled binaries
+bin/
+
+# exclude data from source control by default
+/data/processed/
+/data/raw/
+
+# exclude external models from source control
+/src/external/
